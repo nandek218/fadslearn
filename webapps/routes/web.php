@@ -17,3 +17,7 @@ Route::get('/', function () {
 
 
 Route::get('/cobain','BelajarController@index');
+
+Route::get('test',function() {
+	return view('testing');
+});
