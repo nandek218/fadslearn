@@ -21,3 +21,7 @@ Route::get('/cobain','BelajarController@index');
 Route::get('test',function() {
 	return view('testing');
 });
+
+Route::get('coba2'function(){
+	return view('coba2');
+});
